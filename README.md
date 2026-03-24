@@ -79,7 +79,7 @@ Each step adds geometric expressiveness. The [paper](https://arxiv.org/abs/XXXX.
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/semantic-region-selection.git
+git clone https://github.com/Mr-wuff/From-Points-to-Regions-Exploring-Geometric-Forms-of-Semantic-Context-Selection-for-LLM-Compression.git
 cd semantic-region-selection
 pip install -r requirements.txt
 ```
@@ -137,23 +137,15 @@ semantic-region-selection/
 │   ├── skew.py                 # M3: Skew-Gaussian
 │   └── mixture.py              # M4/M5: Mixture of Skew-Gaussians
 │
-├── notebooks/
-│   ├── phase1a_initial.ipynb          # Initial attempt (instructive failure)
-│   ├── phase1b_ablation.ipynb         # Loss function & regularization ablation
-│   ├── phase1c_encoder_lowrank.ipynb  # Encoder upgrade + low-rank
-│   ├── phase1d_deep_exploration.ipynb # Hyperparameter optimization
-│   ├── phase1e_multidataset.ipynb     # Cross-dataset validation
-│   ├── phase1f_geometry.ipynb         # All geometric forms comparison
-│   └── phase2_comprehensive.ipynb     # Final comprehensive evaluation
-│
-├── paper/
-│   ├── paper.tex               # ACL format paper
-│   ├── references.bib          # Bibliography
-│   └── figures/                # Publication figures (PDF + PNG)
-│
-└── checkpoints/                # Pretrained model weights
-    ├── skew_hotpotqa.pt
-    └── mixskew3_hotpotqa.pt
+└── notebooks/
+    ├── phase1a_initial.ipynb          # Initial attempt (instructive failure)
+    ├── phase1b_ablation.ipynb         # Loss function & regularization ablation
+    ├── phase1c_encoder_lowrank.ipynb  # Encoder upgrade + low-rank
+    ├── phase1d_deep_exploration.ipynb # Hyperparameter optimization
+    ├── phase1e_multidataset.ipynb     # Cross-dataset validation
+    ├── phase1f_geometry.ipynb         # All geometric forms comparison
+    └── phase2_comprehensive.ipynb     # Final comprehensive evaluation
+
 ```
 
 ---
