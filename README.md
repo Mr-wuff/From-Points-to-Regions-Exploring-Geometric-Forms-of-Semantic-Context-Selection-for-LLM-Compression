@@ -4,6 +4,8 @@
 
 ### Exploring Geometric Forms of Semantic Context Selection for LLM Compression
 
+![Evolution](assets/semantic_region_evolution.gif)
+
 [![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB.svg)](https://python.org)
